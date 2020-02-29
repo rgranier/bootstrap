@@ -1,3 +1,3 @@
 # Bootstrap Working Repository
 
-Bootstrap Repo
+Bootstrap Repo (edit on server).
