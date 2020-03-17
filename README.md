@@ -15,4 +15,4 @@ When working in Atom, you get a error message indicating if the current commit i
 - Did the pull, there were no conflicts.  Saw the changes made on the remote.
 
 **Message indicating that "Merge branch master."**
-__This must have been an automatic merge. We still have a push with a "2" waiting.__
+_This must have been an automatic merge. We still have a push with a "2" waiting._
