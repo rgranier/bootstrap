@@ -139,57 +139,92 @@
     <br>
     <br>
 
-    <!-- EQUAL WIDTH STACKED -->
-    <div>
-      <div style="border:1px solid #333">Equal Width Stack</div>
-      <div style="border:1px solid #333">Equal Width Stack</div>
-      <div style="border:1px solid #333">Equal Width Stack</div>
+    <!-- EQUAL WIDTH STACKED this makes them stack on a small screen.
+  this is usually what he does.-->
+    <div class="row">
+      <div class="col-sm" style="border:1px solid #333">Equal Width Stack</div>
+      <div class="col-sm" style="border:1px solid #333">Equal Width Stack</div>
+      <div class="col-sm"  style="border:1px solid #333">Equal Width Stack</div>
     </div>
+    <br>
+    <br>
 
     <!-- ORDERING -->
-    <div>
-      <div style="border:1px solid #333">
+    <div class="row">
+      <div class="col order-3" style="border:1px solid #333">
         First
       </div>
-      <div style="border:1px solid #333">
+      <div class="col order-2"style="border:1px solid #333">
         Second
       </div>
-      <div style="border:1px solid #333">
+      <div class="col order-1"style="border:1px solid #333">
         Third
       </div>
     </div>
+    <br>
+    <br>
 
-    <!-- OFFSETTING -->
-    <div>
-      <!-- 6 column div offset by 3 -->
-      <div style="border:1px solid #333">.col-md-6 .offset-md-3</div>
-    </div>
-    <div>
-      <!-- 2 4 column divs, the second offset by 4 -->
-      <div style="border:1px solid #333">.col-md-4</div>
-      <div style="border:1px solid #333">.col-md-4 .offset-md-4</div>
-    </div>
+    <!-- OFFSETTING We have been filling up the entire 12 columns before.
+    What if we want to push something over.-->
 
-    <div>
-      <!-- 2 3 column divs, both offset by 3 -->
-      <div style="border:1px solid #333">.col-md-3 .offset-md-3</div>
-      <div style="border:1px solid #333">.col-md-3 .offset-md-3</div>
+    <!-- 6 column div offset by 3
+    6 is half, but push it in the middle.  Logging screen. Narrow screen.-->
+    <div class="row">
+      <div class="col-md-6 offset-md-3"style="border:1px solid #333">.col-md-6 .offset-md-3</div>
     </div>
+    <br>
+    <br>
+
+  <!-- 2 4 column divs, the second offset by 4 -->
+    <div class="row">
+      <div class="col-md-4" style="border:1px solid #333">.col-md-4</div>
+      <div class="col-md-4 offset-md-4" style="border:1px solid #333">.col-md-4 .offset-md-4</div>
+    </div>
+    <br>
+    <br>
+
+  <!-- 2 3 column divs, both offset by 3 -->
+    <div class="row">
+      <div class="col-md-3 offset-md-3" style="border:1px solid #333">.col-md-3 .offset-md-3</div>
+      <div class="col-md-3 offset-md-3" style="border:1px solid #333">.col-md-3 .offset-md-3</div>
+    </div>
+    <br>
+    <br>
 
     <!-- NESTING -->
-    <div>
-      <div style="border:1px solid blue">
+    <div class="row">
+      <div class="col-sm-9"style="border:2px solid blue">
         Level 1: .col-sm-9
-        <div>
-          <div style="border:1px solid red">
+        <div class="row">
+          <div class="col-8 col-sm-6"style="border:2px solid red">
             Level 2: .col-8 .col-sm-6
           </div>
-          <div style="border:1px solid red">
+          <div class="col-4 col-sm-6"style="border:2px solid red">
             Level 2: .col-4 .col-sm-6
           </div>
         </div>
       </div>
     </div>
+    <br>
+    <br>
+
+    <!-- NESTING -->
+    <div class="row">
+      <div class="col-sm-9"style="border:2px solid blue">
+        Level 1: .col-sm-9
+        <div class="row">
+          <div class="col-8"style="border:2px solid red">
+            Level 2: .col-8 .col-sm-6
+          </div>
+          <div class="col-4"style="border:2px solid red">
+            Level 2: .col-4 .col-sm-6
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+
 
     <div style="margin-top:500px;"></div>
 
