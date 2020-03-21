@@ -88,8 +88,8 @@
     <!--####################START HERE####################-->
 
     <!-- RESPONSIVE GRID -->
-    <div>
-      <div style="border:1px solid #333">
+    <div class="row">
+      <div class="col-sm-6 col-md-8 col-lg-9 col-xl-10"style="border:1px solid #333">
         <ul>
           <li>6 column on small screens</li>
           <li>8 column on medium screen</li>
@@ -97,7 +97,8 @@
           <li>10 column on xlarge screen</li>
         </ul>
       </div>
-      <div style="border:1px solid #333">
+
+      <div class="col-sm-6 col-md-8 col-lg-3 col-xl-2"style="border:1px solid #333">
         <ul>
           <li>6 column on small screens</li>
           <li>4 column on medium screen</li>
@@ -107,29 +108,36 @@
       </div>
     </div>
 
-    <!-- EQUAL WIDTH -->
-    <div>
-      <div style="border:1px solid #333">Equal Width</div>
-      <div style="border:1px solid #333">Equal Width</div>
-      <div style="border:1px solid #333">Equal Width</div>
-      <div style="border:1px solid #333">Equal Width</div>
+    <br>
+    <!-- EQUAL WIDTH For when you don't need different col sizes
+  for different screens-->
+    <div class="row">
+      <div class="col" style="border:1px solid #333">Equal Width</div>
+      <div class="col" style="border:1px solid #333">Equal Width</div>
+      <div class="col" style="border:1px solid #333">Equal Width</div>
+      <div class="col" style="border:1px solid #333">Equal Width</div>
     </div>
-
+    <br>
+    <br>
     <!-- EQUAL WIDTH MULTI ROW -->
-    <div>
-      <div style="border:1px solid #333">Equal Width Multi</div>
-      <div style="border:1px solid #333">Equal Width Multi</div>
-      <div style="border:1px solid #333"></div>
-      <div style="border:1px solid #333">Equal Width Multi</div>
-      <div style="border:1px solid #333">Equal Width Multi</div>
+    <div class="row">
+      <div class="col" style="border:1px solid #333">Equal Width Multi</div>
+      <div class="col" style="border:1px solid #333">Equal Width Multi</div>
+      <div class="w-100" style="border:1px solid #333"></div>
+      <div class="col" style="border:1px solid #333">Equal Width Multi</div>
+      <div class="col" style="border:1px solid #333">Equal Width Multi</div>
     </div>
+    <br>
+    <br>
 
     <!-- AUTO LAYOUT -->
-    <div>
-      <div style="border:1px solid #333">Auto Layout</div>
-      <div style="border:1px solid #333">Auto Layout</div>
-      <div style="border:1px solid #333">Auto Layout</div>
+    <div class="row">
+      <div class="col" style="border:1px solid #333">Auto Layout</div>
+      <div class="col-6"style="border:1px solid #333">Auto Layout</div>
+      <div class="col-4" style="border:1px solid #333">Auto Layout</div>
     </div>
+    <br>
+    <br>
 
     <!-- EQUAL WIDTH STACKED -->
     <div>
